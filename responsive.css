@@ -1,7 +1,98 @@
 @media screen and (max-width: 992px) {
+
+    p,
+    a {
+        font-size: smaller;
+
+    }
+
+
     .folding-items {
         display: none;
     }
+
+    .header-all-text {
+        width: 50%;
+    }
+
+    .header-image img {
+        width: 60%;
+        height: 50%;
+        display: block;
+        margin: 0 auto;
+
+    }
+
+    .market-places-icon {
+
+        width: 10%;
+    }
+
+    .bottom-banner-img img {
+        height: 100%;
+        width: 100%;
+    }
+
+    .bottom-banner-text {
+        width: 30%;
+        display: block;
+        margin: 0 auto;
+    }
+
+    .products {
+        margin: 30px;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+
 }
 
-@media screen and (max-width: 600px) {}
+@media screen and (max-width: 600px) {
+    .header-content {
+        flex-direction: column-reverse
+    }
+
+    .header-all-text {
+        width: 100%;
+    }
+
+    .ancor-button {
+        text-align: center;
+    }
+
+    .market-places {
+        margin: 0;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    .popular-products-headline {
+        width: fit-content;
+        margin: 30px auto;
+    }
+
+    .products {
+        margin: 10px;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .popular-products a {
+        text-align: center;
+        display: block;
+    }
+
+    .bottom-banner {
+        margin: 50px auto;
+        display: block;
+        width: 90%;
+    }
+
+    .bottom-banner-img {
+        width: 100%;
+    }
+
+    .bottom-banner-text {
+        width: 90%;
+    }
+}

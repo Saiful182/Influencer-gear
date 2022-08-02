@@ -10,7 +10,7 @@ body {
 }
 
 p {
-    margin: 5px;
+    margin: 5px 0;
 }
 
 .nav {
@@ -49,6 +49,16 @@ a {
 .header-content {
     display: flex;
     align-items: center;
+    justify-content: space-around
+}
+
+.header-all-text {
+    width: 40%;
+}
+
+.header-image img {
+    width: 80%;
+    height: 60%;
 }
 
 .ancor-button {
@@ -68,6 +78,10 @@ a {
     justify-content: space-between
 }
 
+.popular-products {
+    margin: 0 auto;
+}
+
 .popular-products-headline {
     width: fit-content;
     margin: 100px auto;
@@ -77,12 +91,12 @@ a {
     margin: 50px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    justify-items: center
 }
 
 .popular-products a {
     color: #E02C6D;
     text-align: right;
-
     display: block;
 }
 
@@ -121,8 +135,6 @@ a {
     display: flex;
     align-items: center;
     width: 90%;
-
-
 }
 
 .bottom-banner-img {
