@@ -1,0 +1,7 @@
+@media screen and (max-width: 992px) {
+    .folding-items {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 600px) {}
