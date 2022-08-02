@@ -1,7 +1,11 @@
 body {
+    margin: 0;
+    background: rgb(219, 215, 215);
+}
+
+.white-background {
     margin: 10px auto;
     width: 90%;
-    background: rgb(219, 215, 215);
 
 }
 
@@ -28,7 +32,6 @@ a {
     line-height: 36px;
 }
 
-.nav-items {}
 
 .folding-items,
 .visible-item {
@@ -73,8 +76,14 @@ a {
 .products {
     margin: 50px;
     display: grid;
-
     grid-template-columns: repeat(3, 1fr);
+}
+
+.popular-products a {
+    color: #E02C6D;
+    text-align: right;
+
+    display: block;
 }
 
 .product-details {
@@ -105,4 +114,67 @@ a {
 
 .icons {
     color: gold;
+}
+
+.bottom-banner {
+    margin: 50px auto;
+    display: flex;
+    align-items: center;
+    width: 90%;
+
+
+}
+
+.bottom-banner-img {
+    width: 50%;
+}
+
+.bottom-banner-img img {
+    height: 100%;
+    width: 90%;
+}
+
+.bottom-banner-text {
+    width: 50%;
+}
+
+.bottom-banner-text p {
+    margin: 20px 0;
+}
+
+.bottom-banner-text a {
+    margin: 10px 0;
+    color: #fff;
+    padding: 10px;
+    background-color: #E02C6D;
+}
+
+.footer-content {
+    background-color: #0A0826;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.footer-content h3 {
+    color: #fff;
+}
+
+.footer-content-part2 {
+    padding: 0 20px 20px 20px;
+}
+
+.footer-content-part2 p {
+    color: #fff;
+}
+
+.footer-icons {
+    margin: 10px 0;
+}
+
+.footer-icon {
+
+    background-color: black;
+    border-radius: 50%;
+    padding: 5px;
+    color: #fff;
 }
